@@ -64,6 +64,7 @@ int main() {
         std::cout << "No" << std::endl;
     }
 
+    // memory clearing
     for (int i = 0; i < rows; i++) {
         delete [] (matrix[i]);
     }
