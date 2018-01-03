@@ -5,7 +5,7 @@
 
 
 int main() {
-    // start of train creation
+    // start of train list creation
     int trainsNumber;
     std::cout << "Enter the trains number: ";
     std::cin >> trainsNumber;
@@ -14,12 +14,12 @@ int main() {
         std::cerr << "List of trains will not be created." << std::endl;
         return -1;
     }
-    // end of train creation
 
     Train *listOfTrains = new Train[trainsNumber];
     for (int i = 0; i < trainsNumber; i++) {
         listOfTrains[i] = createTrain();
     }
+    // end of train list creation
 
     std::cout << "\nFilter of train list.\n";
     Clock clock = createClock();

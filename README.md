@@ -13,3 +13,6 @@ Themes:
 8) Functions.
 9) The data types defined by the user. Structures and unions.
 10) Working with strings in C++. Streams input / output. File operations.
+11) Overloading of functions. Function templates.
+12) Simple classes and objects.
+13) Designing classes. The constructor and destructor of a class.
