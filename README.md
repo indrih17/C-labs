@@ -1,8 +1,11 @@
 # C-labs
 
-A link to the archive with the theory: https://yadi.sk/d/5TXiBmVw3RBH9V
+Theory in Russian language is on [my yandex.disk](https://yadi.sk/d/5TXiBmVw3RBH9V)
 
-Themes:
+The task indicated at the beginning of each main.cpp file,
+except for laboratory work with classes and structures.
+
+## Themes:
 1) Creating a simple application.
 2) The program design of linear structure.
 3) The operators of branching and selection.
