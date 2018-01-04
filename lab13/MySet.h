@@ -2,7 +2,7 @@
 #include <vector>
 
 /**
-	THE IMPLEMENTATION OF CLASS TEMPLATE CAN'T REMOVED IN THE .CPP FILE!
+    THE IMPLEMENTATION OF CLASS TEMPLATE CAN'T REMOVED IN THE .CPP FILE!
 */
 
 #ifndef MY_SET_H
@@ -10,9 +10,9 @@
 
 template <typename T> class MySet {
 private:
-	std::vector<T> set;
+    std::vector<T> set;
 public:
-	MySet() {}
+    MySet() {}
     MySet(MySet<T>* inp);
     MySet(T* inputArr, int size);
 
@@ -28,7 +28,7 @@ public:
     MySet<T>* intersection(MySet<T>* inputSet);
     MySet<T>* unions(MySet<T>* inputSet);
     MySet<T>* difference(MySet<T>* inputSet);
-	MySet<T>* withoutIntersection(MySet<T>* inputSet);
+    MySet<T>* withoutIntersection(MySet<T>* inputSet);
 
     MySet<T>* operator * (MySet<T>* inputSet);
     MySet<T>* operator + (MySet<T>* inputSet);
@@ -76,10 +76,10 @@ template<typename T> void MySet<T>::add(T t) {
 } 
 
 template<typename T> void MySet<T>::print() {
-	for (int i = 0; i < set.size(); i++) {
-		std::cout << set[i] << " ";
-	} 
-	std::cout << std::endl;
+    for (int i = 0; i < set.size(); i++) {
+        std::cout << set[i] << " ";
+    } 
+    std::cout << std::endl;
 }
 
 template<typename T> MySet<T>* MySet<T>::intersection(MySet<T>* inputSet) {
